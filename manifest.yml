@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: amsiic-pi-test2
+  host: amsiic-pi-test2
+  disk_quota: 1024M
+  services:
+  - amsiic-pi-test2-personality_insights
